@@ -7,7 +7,7 @@ Welcome to the Tom and Jerry Maze Game! This game implements the Breadth-First S
 1. **Objective**: Guide Jerry through the maze to escape from Tom.
 2. **Controls**: Use the arrow keys on your keyboard to navigate Jerry through the maze.
 3. **Gameplay**: Jerry can move in four directions: up, down, left, and right. Navigate him through the maze to reach the exit.
-4. **Winning**: You win the game when Jerry successfully escapes before Tom catching you.
+4. **Winning**: You win the game when Jerry successfully escapes before Tom catches you.
 5. **Losing**: Be careful! If Tom catches you, the game ends.
 
 ## GitHub Repository
@@ -18,4 +18,4 @@ To explore the game's source code or contribute to its development, visit our Gi
 
 Download the MazeGame JAR file to enjoy the adventure of helping Tom catch Jerry: [Download MazeGame](MazeGame.jar).
 
-Enjoy the thrill of the chase with Tom and Jerry in this fun maze game!
+Enjoy the thrill of the escaping with Jerry from Tom in this fun maze game!
