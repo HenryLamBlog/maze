@@ -210,7 +210,7 @@ public class MazeFrame extends JFrame {
 
         JLabel label1 = new JLabel("Click once to select, another " +
                 "\r\n" + "time to change the grid");
-        label1.setFont(new Font("Arial", Font.PLAIN, 12));
+        label1.setFont(new Font("Lato", Font.PLAIN, 12));
         label1.setAlignmentX(Component.CENTER_ALIGNMENT);
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(1, 1));

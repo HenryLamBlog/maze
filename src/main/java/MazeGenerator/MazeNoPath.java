@@ -13,7 +13,7 @@ public class MazeNoPath extends JFrame {
 
         // Create a label with the text "No path is found!"
         JLabel label = new JLabel("No path is found!");
-        label.setFont(new Font("Arial", Font.BOLD,  24));
+        label.setFont(new Font("Lato", Font.BOLD,  24));
         label.setHorizontalAlignment(SwingConstants.CENTER);
         label.setVerticalAlignment(SwingConstants.CENTER);
 

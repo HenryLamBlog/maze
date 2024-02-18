@@ -27,21 +27,26 @@ public class Main extends JFrame{
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
 
         // Add greeting text labels
-        JLabel label1 = new JLabel("Hello! Here is Group52 !");
-        JLabel label2 = new JLabel("Welcome to the Maze game.");
+        // JLabel label1 = new JLabel("Hello! Here is Group52 !");
+        JLabel label2 = new JLabel("Welcome to our Tom and Jerry Maze game!");
         JLabel label3 = new JLabel("Choose an option below:");
 
         // Customize the labels
-        label1.setFont(new Font("Arial", Font.BOLD, 30));
-        label2.setFont(new Font("Arial", Font.PLAIN, 24));
-        label3.setFont(new Font("Arial", Font.PLAIN, 24));
+        // label1.setFont(new Font("Arial", Font.BOLD, 30));
+        // label2.setFont(new Font("Lato:300", Font.ROMAN_BASELINE, 24));
+        // label3.setFont(new Font("Lato:300", Font.PLAIN, 24));
+        Font latoFont = new Font("Lato", Font.PLAIN, 24);
+        label2.setFont(latoFont);
+        label3.setFont(latoFont);
+
+
 
         // Center align the labels
-        label1.setAlignmentX(Component.CENTER_ALIGNMENT);
+        // label1.setAlignmentX(Component.CENTER_ALIGNMENT);
         label2.setAlignmentX(Component.CENTER_ALIGNMENT);
         label3.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        panel.add(label1);
+        // panel.add(label1);
         panel.add(Box.createVerticalStrut(10)); // Add some vertical spacing
         panel.add(label2);
         panel.add(Box.createVerticalStrut(10)); // Add some vertical spacing
@@ -53,7 +58,7 @@ public class Main extends JFrame{
         JButton button3 = new JButton("Play Maze Game");
 
         // Customize the buttons
-        Font buttonFont = new Font("Arial", Font.BOLD, 16);
+        Font buttonFont = new Font("Lato", Font.PLAIN, 16);
         button1.setFont(buttonFont);
         button2.setFont(buttonFont);
         button3.setFont(buttonFont);
@@ -121,7 +126,7 @@ public class Main extends JFrame{
         button3.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 // Code to open a new window and run MazeMain class
-                JFrame FunctionC = new JFrame("FUnctionC");
+                JFrame FunctionC = new JFrame("FunctionC");
                 FunctionC.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 FunctionC.getContentPane().setBackground(Color.WHITE);
 //                mazeGame.main(new String[0]);
