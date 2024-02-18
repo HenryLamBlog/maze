@@ -1,4 +1,4 @@
-# Comp3111F23G52
+# Tom and Jerry Maze Game implementing BFS algorithm
 <img width="1014" alt="image" src="src/main/SignUpForm.png">
 
 # Instruction
