@@ -1,5 +1,4 @@
 # Tom and Jerry Maze Game implementing BFS algorithm
-<img width="1014" alt="image" src="src/main/SignUpForm.png">
 
 # Instruction
 Please go to src/main/java/MainMenu/Main.java, compile and run it on your machine for testing 3 functions at once. If you want to test it individually, please go to the following files, then complie and run it:
