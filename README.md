@@ -14,8 +14,22 @@ Welcome to the Tom and Jerry Maze Game! This game implements the Breadth-First S
 
 To explore the game's source code or contribute to its development, visit our GitHub repository: [Tom and Jerry Maze GitHub Repository](https://github.com/HenryLamBlog/maze).
 
-## Download the Game
+## Play the Game
 
-Download the MazeGame JAR file to enjoy the adventure of helping Tom catch Jerry: [Download MazeGame](MazeGame.jar).
+Follow these steps to play the Tom and Jerry Maze Game:
 
-Enjoy the thrill of the escaping with Jerry from Tom in this fun maze game!
+1. **Clone the Repository**: Clone the repository containing the game's source code from GitHub: [Tom and Jerry Maze GitHub Repository](https://github.com/HenryLamBlog/maze).
+
+2. **Navigate to the Directory**: Using your terminal or command prompt, navigate to the directory where you have cloned the repository.
+
+3. **Compile the Code (if necessary)**: If the code is not compiled yet, compile it using your Java compiler. You can do this by running the following command:
+
+javac src/main/java/MainMenu/Main.java
+
+4. **Run the Program**: After compiling or if the code is already compiled, run the program using the following command:
+
+java -cp src/main MainMenu.Main
+
+5. **Play the Game**: Once the program starts, follow the on-screen instructions to guide Jerry through the maze and help him escape from Tom. Use the arrow keys on your keyboard to navigate Jerry through the maze.
+
+Enjoy the thrill of escaping with Jerry from Tom in this fun maze game!
